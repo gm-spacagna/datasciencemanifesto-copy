@@ -1,2 +1,8 @@
-# data-science-manifesto
-Manifesto of Agile, Statically Typed and Functional principles applied in Data Science
+# Data Science Manifesto
+Manifesto of Agile, Static typing and Functional principles applied Data Science applications development.
+
+Contributors:
+
+Gianmario Spacagna @gm-spacagna
+Sam Savage @samthebest
+Victor Paraschiv @vicpara
