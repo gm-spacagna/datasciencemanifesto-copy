@@ -57,9 +57,9 @@ applicable to Data Science, like Continuous Integration and
 Test Driven Development. Rejection of this is either elitism, snobbery or laziness.
 
 Simple models that clearly represent the business use case tend
-to perform as well, and if not better than, complex models. The meaning and evaluation of the model should be in business terms above academic terms.
+to perform as well, and if not better than, complex models. The meaning and evaluation of the model should be in business terms over academic terms.
 
-Use simple business numbers like profit and savings to evaluate models
+Use the use case and simple business numbers like profit and savings to evaluate models
 over obscure statistics.
 
 Avoid assuming you have a can opener, use the data to derive your insights
