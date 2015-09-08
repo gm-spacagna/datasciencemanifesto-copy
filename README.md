@@ -64,7 +64,14 @@ over obscure statistics.
 Avoid assuming you have a can opener, use the data to derive your insights
 and use computational power to solve the difficulties rather than statistical tricks.
 
-## mundane: Data Exploration => actually: Knowledge Discovery
+## DATA SCIENCE
+- Knowledge discovery
+- Knowledge delivery
+
+We harvest data to produce knowledge. Data analytics means you are clueless. You roam in a vast unknown space. Data science delivers knowledge. In data science we know what we understand, we apply scientific methodology, numerical methods and computer science algorithms to explore the unknown. Our work is not mystical because we document our conclusions, decisions and deductions. 
+We are data scientists!
+
+### Knowledge Discovery
 From Wiki: Science is a systematic enterprise that builds and organizes knowledge in the form of testable explanations and predictions about the universe.
 
 From Wiki: The scientific method is a body of techniques for investigating phenomena, acquiring new knowledge, or correcting and integrating previous knowledge. To be termed scientific, a method of inquiry is commonly based on empirical or measurable evidence subject to specific principles of reasoning.
@@ -85,7 +92,7 @@ A skilled data scientist knows how to make the data do the talking.
 
 Any person that touches a data science piece of work must be able to understand the chain of conclusions, decisions and deductions which lead to the final results. Equally important the ability to tell why the produced results are correct should be in the hands of everyone.
 
-## Data Delivery => Knowledge Delivery
+### Knowledge Delivery
  Use what we have learned in the Knowledge Discovery to build models and ship numbers (inferred, predicted, computed). 
  Here is where software comes in.
  Touch on :
@@ -98,4 +105,4 @@ Any person that touches a data science piece of work must be able to understand 
  - 
  
 ### In data science the feedback loop contains the two stages...discovery, delivery <- repeat. 
-Discover one more knowledge bit, incorporate in software, ship, repeat.
+Discover one more knowledge bit, incorporate in software, ship, repeat. TO BE CONTINUED...
