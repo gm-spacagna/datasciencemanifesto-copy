@@ -93,6 +93,19 @@ A skilled data scientist knows how to make the data do the talking.
 Any person that touches a data science piece of work must be able to understand the chain of conclusions, decisions and deductions which lead to the final results. Equally important the ability to tell why the produced results are correct should be in the hands of everyone.
 
 ### Knowledge Delivery
+
+Knowledge discovery is the step where we understand the laws that govern the universe in which we have to solve our problem. Our problem has been stated with respect to a set of requirements and properties of the dataset.
+Knowledge delivery is where we use the the math, statistics and computer science to build a software mechanism that deliver the goal we have set initially while making sure all of our assumptions, hypothesis and conditions are continuously fullfilled. The validity of the pre-conditions for a problem must always be verified before running any numerical algorithm. Once the pre-conditions become invalid, there is a different problem being solved which we didn't aim at. Running the correct algorithm on the correct data is the only way to deliver correct results. 
+
+Numerical algorithms are almost always producing number regardless of the numbers fed into them. There are only two ways to guarantee the delivery of accurate results:
+- testing the data
+- testing the algorithms.
+
+1. Data testing happens before every run of the algorithm. It checks the validity of the numerical requirements for the algorithm as they have been stated in Knowledge Discovery. 
+2. Algorithm testing is performed using unit tests and integration tests, topic treated extensively in software engineering.
+
+If the integrity of your numbers cannot be verified, what you have produced is not science but something else.
+
  Use what we have learned in the Knowledge Discovery to build models and ship numbers (inferred, predicted, computed). 
  Here is where software comes in.
  Touch on :
@@ -102,7 +115,7 @@ Any person that touches a data science piece of work must be able to understand 
  - scalable computation
  - agile principle
  - functional programming benefits.
- - 
- 
-### In data science the feedback loop contains the two stages...discovery, delivery <- repeat. 
-Discover one more knowledge bit, incorporate in software, ship, repeat. TO BE CONTINUED...
+
+#### THE LOOP
+In data science the feedback loop cycles through two stages: knowledge discovery and delivery.
+Discover one more bit of knowledge, incorporate in software, ship, repeat.
