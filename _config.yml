@@ -1,5 +1,5 @@
 # Site settings
-title: Data Science Manifesto title
+title: Data Science Manifesto
 email: data-science-manifesto@googlegroups.com
 description: > # this means to ignore newlines until "baseurl:"
   Manifesto of Agile, Static typing and Functional principles applied in building Data Science applications.
