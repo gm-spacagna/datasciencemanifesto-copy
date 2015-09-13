@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Workflow
-permalink: /workflow
+permalink: /workflow/
 ---
 
 ### Main Work Flow

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Principles
-permalink: /principles
+permalink: /principles/
 ---
 
 ## Twelve Principles
