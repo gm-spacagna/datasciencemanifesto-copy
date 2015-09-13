@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Data Science
+permalink: /data-science
 ---
 
 Data Science can be split into:
