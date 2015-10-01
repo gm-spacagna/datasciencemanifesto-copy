@@ -2,6 +2,7 @@
 layout: page
 title: Data Science
 permalink: /data-science/
+exclude_from_nav: true
 ---
 
 Data Science can be split into:

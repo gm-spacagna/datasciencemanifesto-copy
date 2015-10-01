@@ -2,7 +2,7 @@
 title: The Manifesto for Agile Data Science
 email: agile-data-science-manifesto@googlegroups.com
 description: > # this means to ignore newlines until "baseurl:"
-  Manifesto of Agile, Static typing and Functional principles applied in building Data Science applications.
+  The Manifesto for Agile Data Science.
 #baseurl: "/data-science-manifesto" # the subpath of your site, e.g. /blog/
 #url: "http://datasciencemanifesto.com" # the base hostname & protocol for your site
 #twitter_username: jekyllrb
