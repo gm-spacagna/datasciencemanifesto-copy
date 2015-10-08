@@ -1,6 +1,6 @@
 ---
 layout: default
-title: The Manifesto for Agile Data Science
+title: Manifesto for Agile Data Science (Beta)
 exclude_from_nav: true
 ---
 
