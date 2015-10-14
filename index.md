@@ -15,8 +15,8 @@ Here we clarify the application of both the Scientific and [Agile](http://www.ag
 
  - **Minimal Viable Products** over prototypes
  - **APIs** over databases
- - **Clever computation** over convenient assumptions
+ - **Clever use of computation** over convenient assumptions
  - **Dashboards** over reports
- - **Scrutinized repeatable hypothesis validation** over conventions and ad verecundiam
+ - **Scrutinized repeatable hypothesis validation** over conventions and ad verecundiams
 
- That is, while there is value in the items on the right, we value the items on the left more.
+That is, while there is value in the items on the right, we value the items on the left more.
