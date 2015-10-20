@@ -10,19 +10,21 @@
     <div class="page-content">
       <div class="wrapper">
         {{ content }}
+
+        
       </div>
 
-      <!-- Go to www.addthis.com/dashboard to customize your tools -->
-        <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5626720d1555469f" async="async"></script>
+      <script type="text/javascript">stLight.options({publisher: "c5235fbc-360a-440f-bb11-35aedf8e88e9", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
+<script>
+var options={ "publisher": "c5235fbc-360a-440f-bb11-35aedf8e88e9", "logo": { "visible": true, "url": "www.datasciencemanifesto.com", "img": "//sd.sharethis.com/disc/images/demo_logo.png", "height": 45}, "ad": { "visible": false, "openDelay": "5", "closeDelay": "0"}, "livestream": { "domain": "", "type": "sharethis"}, "ticker": { "visible": false, "domain": "", "title": "", "type": "sharethis"}, "facebook": { "visible": false, "profile": "sharethis"}, "fblike": { "visible": false, "url": ""}, "twitter": { "visible": false, "user": "sharethis"}, "twfollow": { "visible": false}, "custom": [{ "visible": false, "title": "Custom 1", "url": "", "img": "", "popup": false, "popupCustom": { "width": 300, "height": 250}}, { "visible": false, "title": "Custom 2", "url": "", "img": "", "popup": false, "popupCustom": { "width": 300, "height": 250}}, { "visible": false, "title": "Custom 3", "url": "", "img": "", "popup": false, "popupCustom": { "width": 300, "height": 250}}], "chicklets": { "items": ["facebook", "twitter", "linkedin", "pinterest", "email", "sharethis"]}};
+var st_bar_widget = new sharethis.widgets.sharebar(options);
+</script> 
 
-        <!-- Go to www.addthis.com/dashboard to customize your tools -->
-          <div class="addthis_sharing_toolbox"></div>
-        <ul class="social-media-list">  
 
     </div>
 
 
-
+    
     {% include footer.html %}
 
   </body>
