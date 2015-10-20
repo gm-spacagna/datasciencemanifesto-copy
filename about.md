@@ -15,4 +15,6 @@ Gianmario Spacagna [@gm-spacagna](https://github.com/gm-spacagna)
 
 ###Contributors
 
-Contact our mailing list if you would like to contribute to the Manifesto.
+If you would like to collaborate, please join our mailing list:
+
+[https://groups.google.com/forum/#!forum/agile-data-science-manifesto](https://groups.google.com/forum/#!forum/agile-data-science-manifesto)
