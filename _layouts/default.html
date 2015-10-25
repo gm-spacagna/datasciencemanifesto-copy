@@ -1,39 +1,11 @@
 <!DOCTYPE html>
 <html>
 
-  {% include head.html %}
+{% include head.html %}
 
-  <!-- Quantcast Tag -->
-<script type="text/javascript">
-var _qevents = _qevents || [];
+{% include quantcast.html %}
 
-(function() {
-var elem = document.createElement('script');
-elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
-elem.async = true;
-elem.type = "text/javascript";
-var scpt = document.getElementsByTagName('script')[0];
-scpt.parentNode.insertBefore(elem, scpt);
-})();
-
-_qevents.push({
-qacct:"p-VArSp9GnU4H34"
-});
-</script>
-
-<noscript>
-<div style="display:none;">
-<img src="//pixel.quantserve.com/pixel/p-VArSp9GnU4H34.gif" border="0" height="1" width="1" alt="Quantcast"/>
-</div>
-</noscript>
-<!-- End Quantcast tag -->
-<!-- GetSiteControl Tag -->
-<script>
-  (function (w,i,d,g,e,t,s) {w[d] = w[d]||[];t= i.createElement(g);
-    t.async=1;t.src=e;s=i.getElementsByTagName(g)[0];s.parentNode.insertBefore(t, s);
-  })(window, document, '_gscq','script','//widgets.getsitecontrol.com/27413/script.js');
-</script>
-<!-- End GetSiteControl Tag -->
+{% include getsitecontrol.html %}
 
   <body>
 
@@ -42,20 +14,8 @@ qacct:"p-VArSp9GnU4H34"
     <div class="page-content">
       <div class="wrapper">
         {{ content }}
-
-        
       </div>
-
-      <script type="text/javascript">stLight.options({publisher: "c5235fbc-360a-440f-bb11-35aedf8e88e9", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
-<script>
-var options={ "publisher": "c5235fbc-360a-440f-bb11-35aedf8e88e9", "logo": { "visible": true, "url": "www.datasciencemanifesto.com", "img": "//sd.sharethis.com/disc/images/demo_logo.png", "height": 45}, "ad": { "visible": false, "openDelay": "5", "closeDelay": "0"}, "livestream": { "domain": "", "type": "sharethis"}, "ticker": { "visible": false, "domain": "", "title": "", "type": "sharethis"}, "facebook": { "visible": false, "profile": "sharethis"}, "fblike": { "visible": false, "url": ""}, "twitter": { "visible": false, "user": "sharethis"}, "twfollow": { "visible": false}, "custom": [{ "visible": false, "title": "Custom 1", "url": "", "img": "", "popup": false, "popupCustom": { "width": 300, "height": 250}}, { "visible": false, "title": "Custom 2", "url": "", "img": "", "popup": false, "popupCustom": { "width": 300, "height": 250}}, { "visible": false, "title": "Custom 3", "url": "", "img": "", "popup": false, "popupCustom": { "width": 300, "height": 250}}], "chicklets": { "items": ["facebook", "twitter", "linkedin", "pinterest", "email", "sharethis"]}};
-var st_bar_widget = new sharethis.widgets.sharebar(options);
-</script> 
-
-
     </div>
-
-
 
     {% include footer.html %}
 
