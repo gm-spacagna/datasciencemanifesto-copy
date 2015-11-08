@@ -7,15 +7,7 @@
 
     <div class="footer-col-wrapper" >
 
-      <div class="footer-col  footer-col-1">
-        <ul class="contact-list">
-          <!--<li>{{ site.title }}</li>-->
-          <p class="text">The manifesto is work in progress.</p>
-          <p class="text">For any discussion or question please contact our mailing list:</p>
-          <li>
-          <a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-        </ul>
-      </div>
+     
 
       <!-- <div class="footer-col  footer-col-2">
   
@@ -51,14 +43,25 @@
           {% endif %}
         </ul>
       </div>-->
+      <div class="footer-col  footer-col-1">
+        <p class="text">The manifesto is work in progress</p>
+      </div>
 
       <div class="footer-col  footer-col-2">
         <p class="text">© 2015</p>
         <!--<p class="text">{{ site.description }}</p>
         <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl}}">via RSS</a></p>-->
       </div>
-    </div>
 
+      <div class="footer-col  footer-col-3">
+        <ul class="contact-list">
+          <!--<li>{{ site.title }}</li>-->
+            <p class="text">Contact the authors:
+              <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+            </p>
+        </ul>
+      </div>
+    </div>
   </div>
 
 </footer>
