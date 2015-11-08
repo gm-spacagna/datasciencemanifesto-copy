@@ -5,7 +5,7 @@ permalink: /principles/
 exclude_from_nav: false
 ---
 
-Agile Data science is about solving problems, not models or algorithms.
+Agile Data Science is about solving problems, not models or algorithms.
 
 All validation of data, hypotheses and performance should be tracked, reviewed and automated.
 
